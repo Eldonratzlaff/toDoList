@@ -35,7 +35,7 @@ const tasks = [
 
 const show = () => {
   const getList = document.getElementById('todo-list');
-  for (let i = 0; i < tasks.length; i++) {
+  for (let i = 0; i < tasks.length; i += 1) {
     const item = document.createElement('li');
     item.innerHTML = `<input type="checkbox" class="check" />  ${tasks[i].description}`;
     getList.appendChild(item);
