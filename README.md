@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <img src="../eldonazul1.jpeg" alt="logo" width="140"  height="auto" />
+  <img src="eldonazul1.jpeg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>ELDON RATZLAFF To Do List Web app</b></h3>
@@ -146,9 +146,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> My gratitude to Microverse for giving me the opportunity to improve my coding. Also shout outs to Nelson Araujo and Jakaria Jishan for working with me on the latest project.
 
-Original design idea by Cindy Shin in Behance.
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -159,6 +159,6 @@ Original design idea by Cindy Shin in Behance.
 
 This project is [MIT](MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
