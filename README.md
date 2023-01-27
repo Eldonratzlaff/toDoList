@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <img src="/images/eldonazul1.jpeg" alt="logo" width="140"  height="auto" />
+  <img src="../eldonazul1.jpeg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>ELDON RATZLAFF To Do List Web app</b></h3>
