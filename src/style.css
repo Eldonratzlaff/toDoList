@@ -25,6 +25,16 @@ body {
   font-weight: 400;
 }
 
+#addItem {
+  font-style: italic;
+  padding: 0 0 0 15px;
+  margin: 0 0 0 3px;
+  font-size: 17px;
+  border: 1px solid white;
+  width: 95%;
+  height: 44px;
+}
+
 li {
   display: flex;
   align-items: center;

@@ -1,9 +1,4 @@
-// import _ from 'lodash';
-// import printMe from './print.js';
 import './style.css';
-
-// import _ from 'lodash';
-// import './style.css';
 
 const tasks = [
   {
