@@ -3,6 +3,7 @@ import './style.css';
 /*
  localStorage.setItem('tasks', JSON.stringify(tasks));
 */
+
 const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 // Add an element
@@ -11,20 +12,13 @@ addTask.addEventListener('keypress', (e) => {
   if (e.key === 'Enter') {
     e.preventDefault();
     window.location.reload();
-    let maxId = 0;
-    for (let i = 0; tasks.length > i; i += 1) {
-      if (maxId < tasks[i].index) {
-        maxId = tasks[i].index;
-      }
-    }
-
+    const maxId = tasks.length;
     tasks.push({
       description: addTask.value,
       Completed: false,
-      index: maxId + 1,
+      index: maxId,
     });
     localStorage.setItem('tasks', JSON.stringify(tasks));
-
     window.location.reload();
   }
 });
@@ -49,6 +43,9 @@ show();
 window.deletebtn = (index) => {
   const result = tasks.filter((item) => item.index !== index);
   const newtasks = result;
+  for (let i = 0; i < newtasks.length; i += 1) {
+    newtasks[i].index = i;
+  }
   localStorage.setItem('tasks', JSON.stringify(newtasks));
   window.location.reload();
 };
@@ -61,6 +58,13 @@ window.checkboxx = (i) => {
   localStorage.setItem('tasks', JSON.stringify(tasks));
 };
 
+// reindex
+const reIndex = () => {
+  for (let i = 0; i < tasks.length; i += 1) {
+    tasks[i].index = i;
+  }
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+};
 // remove cheked
 const removeTask = document.getElementById('clear-button');
 removeTask.addEventListener('click', () => {
@@ -76,4 +80,5 @@ removeTask.addEventListener('click', () => {
       tasksLength -= 1;
     }
   } window.location.reload();
+  reIndex();
 });
