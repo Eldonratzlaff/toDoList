@@ -7,6 +7,7 @@ module.exports = {
     index: './src/index.js',
     print: './src/print.js',
     adddel: './src/adddel.js',
+    interac: './src/interac.js',
   },
   devServer: {
     static: './dist',

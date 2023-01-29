@@ -1,7 +1,5 @@
 // import tasks from './index';
 
-// reindex
-
 const reIndex = () => {
   const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
   for (let i = 0; i < tasks.length; i += 1) {
@@ -31,5 +29,4 @@ window.checkboxx = (i) => {
   } else { tasks[i].Completed = false; }
   localStorage.setItem('tasks', JSON.stringify(tasks));
 };
-
 export default reIndex;
