@@ -50,7 +50,11 @@ input {
   margin: 0 7px;
 }
 
-button {
+.deletebtn {
+  margin: 0 20px 0 auto;
+}
+
+#clear-button {
   height: 44px;
   width: 99%;
   padding: 12px 0 12px 8px;
