@@ -55,4 +55,4 @@ removeTask.addEventListener('click', () => {
   reIndex();
 });
 
-// export default tasks;
+module.exports=addlist;
