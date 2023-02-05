@@ -29,4 +29,6 @@ window.checkboxx = (i) => {
   } else { tasks[i].Completed = false; }
   localStorage.setItem('tasks', JSON.stringify(tasks));
 };
-export default reIndex;
+module.exports= reIndex, deletebtn, checkboxx;
+//export default reIndex;
+
